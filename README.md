@@ -33,9 +33,18 @@
 
 
 ## Usage
-After you Create you app on [Dscord Delopers Portal](https://discord.com/developers/applications) you will need to go to **OAuth2** and copy the **CLIENT ID** and in the `index.js` replace where it says CLientID at the bottom of it with the Client ID you copyed once you have done that you can start adding images for your status that you can pick from when you start it well still once you navagate back to [Dscord Delopers Portal](https://discord.com/developers/applications) press the **Rich Presence** then on the drop down press **Art Assets** then scroll down and you will see **Add Image(s)** press that then chose an image form your files to use as the image in the custom status make sure to remember what you name it then you press save
+# Setting up the Client ID
+- Create an app on [Discord Delopers Portal](https://discord.com/developers/applications)
+- Go to OAuth2 and copy the CLIENT ID
+- Open `index.js` replace where it says `ClientID` at the bottom with the Client ID you copied
 
-go and open the files you downloaded form here in [visual studio code](https://code.visualstudio.com/) go to the `index.js` file you will all the options shown in screenshot below 
+# Adding Images
+Once you have done that you can start adding images for your Rich Presence
+- Navigate back to the [Discord Delopers Portal](https://discord.com/developers/applications)
+- Press Rich Presence in your application then 
+- Click Art Assets then scroll down and you will see Add Image(s) 
+- Click that then chose an image and name
+- Click Save to save your changes
 
 **(excluding APP Name read above for info)**
 
