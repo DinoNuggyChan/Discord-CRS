@@ -1,9 +1,8 @@
   
 /**
- * @name SteamAppLinks
+ * @name Discord-CRS
  * @author Oni-Chan-inc
  * @version 0.0.1
- * @description Opens Steam Links from people's Profiles and in discord in Steam app
  * @website https://waa.ai/nugget
  * @source https://github.com/Oni-Chan-inc/SteamAppLinks
  */
