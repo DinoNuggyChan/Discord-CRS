@@ -11,7 +11,7 @@ pid: process.pid,
 activity : {
 details : `Details`,
 assets : {
-large_image : "Image Name",
+large_image : "Image",
 large_text : "text" // this shows as "Playing <text>" from the outisde
 },
 buttons : [{label : "b1" , url : "link"},{label : "b2",url : "link"}]
