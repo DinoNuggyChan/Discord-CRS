@@ -4,7 +4,7 @@
  * @author Oni-Chan-inc
  * @version 0.0.1
  * @website https://waa.ai/nugget
- * @source https://github.com/Oni-Chan-inc/SteamAppLinks
+ * @source https://github.com/Oni-Chan-inc/Discord-CRS
  */
 
 var rpc = require("discord-rpc")
