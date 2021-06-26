@@ -1,5 +1,4 @@
-  
-/**
+  /**
  * @name Discord-CRS
  * @author Oni-Chan-inc
  * @version 0.0.1
@@ -7,24 +6,24 @@
  * @source https://github.com/Oni-Chan-inc/Discord-CRS
  */
 
-var rpc = require("discord-rpc")
-const client = new rpc.Client({ transport: 'ipc' })
-
-
-
-client.on('ready', () => {
-
-client.request('SET_ACTIVITY', {
-
-pid: process.pid,
-activity : {
-details : `Details`,
-assets : {
-large_image : "Image",
-large_text : "text" // this shows as "Playing <text>" from the outisde
-},
-buttons : [{label : "b1" , url : "link"},{label : "b2",url : "link"}]
-}
-})
-})
-client.login({ clientId : "CLientID" }).catch(console.error);
+ var rpc = require("discord-rpc")
+ const client = new rpc.Client({ transport: 'ipc' })
+ 
+ 
+ 
+ client.on('ready', () => {
+ 
+ client.request('SET_ACTIVITY', {
+ 
+ pid: process.pid,
+ activity : {
+ details : "details text", //text under activity name example: https://i.imgur.com/3cpsKjm.png
+ assets : {
+ large_image : "image name", //make sure its all in lower case
+ large_text : "image text" // text when you hover over image
+ },
+ buttons : [{label : "First Button Name" , url : "first button link"},{label : "Second Button Name" , url : "Second Button Link"}]
+ }
+ })
+ })
+client.login({ clientId : "ClientID" }).catch(console.error); 
