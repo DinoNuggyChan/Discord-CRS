@@ -1,9 +1,9 @@
   /**
  * @name Discord-CRS
- * @author Oni-Chan-inc
+ * @author DinoNuggyChan
  * @version 0.0.1
- * @website https://waa.ai/nugget
- * @source https://github.com/Oni-Chan-inc/Discord-CRS
+ * @website https://www.nuggy.space/
+ * @source https://github.com/DinoNuggyChan/Discord-CRS
  */
 
  var rpc = require("discord-rpc")
