@@ -37,6 +37,7 @@
 - Create an app on [Discord Delopers Portal](https://discord.com/developers/applications)
 - Go to OAuth2 and copy the CLIENT ID
 - Open `index.js` replace where it says `ClientID` at the bottom with the Client ID you copied
+- My youtube video on it [Click here](https://www.youtube.com/watch?v=Vh_Vd37Bos8&t=101s&ab_channel=MrDerpyPanda)
 
 # Adding Images
 Once you have done that you can start adding images for your Rich Presence
